@@ -7,6 +7,12 @@ public class Bullet : MonoBehaviour
     public float speed = 5.0f;
     public float topBound = 15.0f;
 
+    private Rigidbody rb;
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody>();
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -17,4 +23,6 @@ public class Bullet : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
+
+    
 }
