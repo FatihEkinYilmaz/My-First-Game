@@ -6,6 +6,8 @@ public class Enemy_Move : MonoBehaviour
 {
     public float speed = 10.0f;
     public Rigidbody rb;
+
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -22,4 +24,5 @@ public class Enemy_Move : MonoBehaviour
             Destroy(gameObject);
         }
     }
+   
 }

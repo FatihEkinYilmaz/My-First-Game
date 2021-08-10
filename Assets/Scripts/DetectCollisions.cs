@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DetectCollisions : MonoBehaviour
 {
+    public ParticleSystem explosionParticle;
      void OnTriggerEnter(Collider other)
     {
 
@@ -11,6 +12,11 @@ public class DetectCollisions : MonoBehaviour
         {
             Destroy(gameObject);
             Destroy(other.gameObject);
+            Instantiate(explosionParticle, transform.position, transform.rotation);
+        }
+        else
+        {
+
         }
             
         

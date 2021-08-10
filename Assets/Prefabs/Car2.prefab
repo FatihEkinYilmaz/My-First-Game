@@ -464,8 +464,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.8256443, y: 1.5613846, z: 5.8595066}
-  m_Center: {x: -0.067036346, y: 0.28069177, z: -0.00089426833}
+  m_Size: {x: 2.8256443, y: 2.0834546, z: 5.8595066}
+  m_Center: {x: -0.0670363, y: 0.019658208, z: -0.0008943677}
 --- !u!114 &-5188877524538591207
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -478,7 +478,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfa4d78d4746b174fb46c003a807e675, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 7
   rb: {fileID: 5034542346880783276}
 --- !u!114 &7826999428775080760
 MonoBehaviour:
@@ -492,6 +492,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65d0a0e7bc9dbe14197fdc04f1110a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  explosionParticle: {fileID: 7194952087870367274, guid: a56fa166c27c1b64a90204cdc43a72fd, type: 3}
 --- !u!1 &4979699750870447542
 GameObject:
   m_ObjectHideFlags: 0

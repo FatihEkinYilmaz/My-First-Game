@@ -128,7 +128,7 @@ Rigidbody:
   m_Mass: 3000
   m_Drag: 0
   m_AngularDrag: 0.1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
@@ -159,6 +159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65d0a0e7bc9dbe14197fdc04f1110a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  explosionParticle: {fileID: 3716275016998676317, guid: 6b37cd66c053f5c438d7a6854a9ee401, type: 3}
 --- !u!65 &8036441527067913269
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -170,8 +171,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.302968, y: 1, z: 5.6196556}
-  m_Center: {x: 0.049567938, y: 0, z: 0.08703554}
+  m_Size: {x: 3.302968, y: 1.4454792, z: 5.6196556}
+  m_Center: {x: 0.049567968, y: -0.22273943, z: 0.0870356}
 --- !u!1 &1305645034103864
 GameObject:
   m_ObjectHideFlags: 0

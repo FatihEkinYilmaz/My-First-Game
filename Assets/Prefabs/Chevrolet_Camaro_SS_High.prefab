@@ -76,7 +76,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfa4d78d4746b174fb46c003a807e675, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 7
   rb: {fileID: 9099747609663897531}
 --- !u!114 &4059873504785204518
 MonoBehaviour:
@@ -90,6 +90,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65d0a0e7bc9dbe14197fdc04f1110a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  explosionParticle: {fileID: 6237553109302029179, guid: 028315ff90f3b77478f6282592e23c74, type: 3}
 --- !u!1 &6243925713948726183
 GameObject:
   m_ObjectHideFlags: 0
