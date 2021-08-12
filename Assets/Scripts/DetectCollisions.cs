@@ -13,6 +13,7 @@ public class DetectCollisions : MonoBehaviour
             Destroy(gameObject);
             Destroy(other.gameObject);
             Instantiate(explosionParticle, transform.position, transform.rotation);
+            
         }
         else
         {
