@@ -15,11 +15,11 @@ D:/MyGithub/My-First-Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56604
+62922
 Successfully changed project path to: D:/MyGithub/My-First-Game
 D:/MyGithub/My-First-Game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 23.04 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 24.36 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.4f1 (0abb6314276a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -35,388 +35,898 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56628
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001842 seconds.
+Registered in 0.002280 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 24.04 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 25.92 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.887 seconds
+- Completed reload, in  1.886 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000530 seconds.
+Registered in 0.000633 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.733 seconds
+- Completed reload, in  0.726 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1121 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 129.2 MB.
 System memory in use after: 129.3 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1570.
-Total: 2.009600 ms (FindLiveObjects: 0.226100 ms CreateObjectMapping: 0.115400 ms MarkObjects: 1.582800 ms  DeleteObjects: 0.084500 ms)
+Total: 1.408600 ms (FindLiveObjects: 0.133500 ms CreateObjectMapping: 0.043200 ms MarkObjects: 1.153000 ms  DeleteObjects: 0.078000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Footsteps - Essentials/Footsteps_Gravel
-  artifactKey: Guid(679124ef3b78bdd4692da22b80cc87ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Gravel using Guid(679124ef3b78bdd4692da22b80cc87ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8d6b2cf89f06ed6409d2bfa312b8cc') in 0.021834 seconds
-  Import took 0.023481 seconds .
+  path: Assets/Scripts/Enemy_Move.cs
+  artifactKey: Guid(bfa4d78d4746b174fb46c003a807e675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy_Move.cs using Guid(bfa4d78d4746b174fb46c003a807e675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ff5b7097b568875f6561a60013de82') in 0.023234 seconds
+  Import took 0.024939 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_DirtyGround
-  artifactKey: Guid(d0ba54a2ca348c945935f123f842b774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_DirtyGround using Guid(d0ba54a2ca348c945935f123f842b774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9182ba38ca9f6b9a2a40584926e4dd7b') in 0.006015 seconds
-  Import took 0.007731 seconds .
+  Time since last request: 0.000154 seconds.
+  path: Assets/Scripts/Player_Move.cs
+  artifactKey: Guid(eeaef335dfdfef947b6a159a4c71bf17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player_Move.cs using Guid(eeaef335dfdfef947b6a159a4c71bf17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c77cc2b9f1bf3af601e929ade5cfc5') in 0.006370 seconds
+  Import took 0.007913 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Grass
-  artifactKey: Guid(c7e1aea36816af7498177440946a1d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Grass using Guid(c7e1aea36816af7498177440946a1d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb207acf18482a027a72e10cd35cfaab') in 0.006148 seconds
-  Import took 0.007736 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Leaves
-  artifactKey: Guid(f7ddcf9e73131cd4aa4c1e16ec018c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Leaves using Guid(f7ddcf9e73131cd4aa4c1e16ec018c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3818113d0ddc80d4e91c3266bf822d0f') in 0.006001 seconds
-  Import took 0.007859 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.062977 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Mud
-  artifactKey: Guid(c428022154526d948bae8d8084826826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Mud using Guid(c428022154526d948bae8d8084826826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c41eb8536d90572cba571a78e34576') in 0.005576 seconds
-  Import took 0.007195 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.733462 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Metal
-  artifactKey: Guid(9024c6c9a0565764abae1e25b1a5fae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Metal using Guid(9024c6c9a0565764abae1e25b1a5fae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9195571f310c18b75944b1ac723205cb') in 0.006444 seconds
-  Import took 0.008076 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.067342 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Jump
-  artifactKey: Guid(d2246bc17e63fe741a393377a91dd5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Jump using Guid(d2246bc17e63fe741a393377a91dd5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9176759505bd422194c2f283d4e1ade') in 0.007692 seconds
-  Import took 0.009484 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.389412 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Run
-  artifactKey: Guid(6c971f6a2ecc4b14f8125f8c7bf37efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Run using Guid(6c971f6a2ecc4b14f8125f8c7bf37efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '078b4b7e670241dbdf3fdaeeb809b508') in 0.007254 seconds
-  Import took 0.008837 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.503309 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Walk
-  artifactKey: Guid(b9217203089b1024eb52c025ed2b259a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Walk using Guid(b9217203089b1024eb52c025ed2b259a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b796e7f2c2053d6cc04a36ff464f95e') in 0.008348 seconds
-  Import took 0.010421 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.380295 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Run/Footsteps_Mud_Run_01.wav
-  artifactKey: Guid(33723cbe063127c4ca08b7f627760f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Run/Footsteps_Mud_Run_01.wav using Guid(33723cbe063127c4ca08b7f627760f1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0817d47d7d5be18c6fa476c09e34bdac') in 0.119184 seconds
-  Import took 0.120831 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Run/Footsteps_Mud_Run_07.wav
-  artifactKey: Guid(374c71596ed63e44ca7a07f15ed1ccd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Run/Footsteps_Mud_Run_07.wav using Guid(374c71596ed63e44ca7a07f15ed1ccd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e320bc325a907651f17cae55c5d74967') in 0.015116 seconds
-  Import took 0.017251 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Run/Footsteps_Mud_Run_02.wav
-  artifactKey: Guid(f2d112cd27f01be4da1fd1979addfb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Run/Footsteps_Mud_Run_02.wav using Guid(f2d112cd27f01be4da1fd1979addfb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '871a8b893bcfb313772b72a0bfe2c50a') in 0.022550 seconds
-  Import took 0.024455 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Run/Footsteps_Mud_Run_05.wav
-  artifactKey: Guid(e97a8da4003210f41ab64be2f49d795e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Run/Footsteps_Mud_Run_05.wav using Guid(e97a8da4003210f41ab64be2f49d795e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25aa7c15e2f341e97f3d856fc14e3818') in 0.015359 seconds
-  Import took 0.017657 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Run/Footsteps_Mud_Run_06.wav
-  artifactKey: Guid(69ad51b0e53fa6e4d9e6db01c870f7fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Run/Footsteps_Mud_Run_06.wav using Guid(69ad51b0e53fa6e4d9e6db01c870f7fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bffb4cc438a03e87dc41a16fa7e79dd') in 0.011017 seconds
-  Import took 0.013068 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Run/Footsteps_Mud_Run_03.wav
-  artifactKey: Guid(19d07bb6bdfbaae43acf30893876bba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Run/Footsteps_Mud_Run_03.wav using Guid(19d07bb6bdfbaae43acf30893876bba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40cde2a19265ff7f16ce104c4a610285') in 0.014399 seconds
-  Import took 0.016342 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Run/Footsteps_Mud_Run_04.wav
-  artifactKey: Guid(7ca101be9f1e036429aba094cd40b711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Run/Footsteps_Mud_Run_04.wav using Guid(7ca101be9f1e036429aba094cd40b711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a2014ce64ecaa02888a008d4b9cb34a') in 0.014497 seconds
-  Import took 0.017027 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.880008 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Rock
-  artifactKey: Guid(ce43c2faff5be2d408bb13797d8f4631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Rock using Guid(ce43c2faff5be2d408bb13797d8f4631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95fcc68a82757a2e3d174f039cb0bd09') in 0.005147 seconds
-  Import took 0.007053 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.673299 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Sand
-  artifactKey: Guid(f9dfd2e905c94b140915d92263eb738b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Sand using Guid(f9dfd2e905c94b140915d92263eb738b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bfd2e9747b594460970efbe04696372') in 0.004781 seconds
-  Import took 0.006381 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.774114 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Snow
-  artifactKey: Guid(b6f81c75bc641374d91b3cb7857a3b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Snow using Guid(b6f81c75bc641374d91b3cb7857a3b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c983279e181252cc9007b4103cee708') in 0.004725 seconds
-  Import took 0.006359 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.527788 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Tile
-  artifactKey: Guid(6508de9dd85b774429e225ddb500f8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Tile using Guid(6508de9dd85b774429e225ddb500f8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9664c1b6a4a3b55eed9377547fcffbed') in 0.005248 seconds
-  Import took 0.007022 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.157058 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Jump
-  artifactKey: Guid(1eee678c0cea3bb4dabc72b2e27dd246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Jump using Guid(1eee678c0cea3bb4dabc72b2e27dd246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dea463e26b4a3b79b60bc9bc9324050') in 0.005637 seconds
-  Import took 0.007664 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.704916 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Run
-  artifactKey: Guid(aaeada18464270f4d935a78290dde034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Run using Guid(aaeada18464270f4d935a78290dde034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51972b334b364d6fe31403671f33356f') in 0.005251 seconds
-  Import took 0.007306 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.935614 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Run/Footsteps_Tile_Run_01.wav
-  artifactKey: Guid(ffa5441258224694690169f4bd95b969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Run/Footsteps_Tile_Run_01.wav using Guid(ffa5441258224694690169f4bd95b969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3cf80114120503539e2989113087acf') in 0.008632 seconds
-  Import took 0.010332 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Run/Footsteps_Tile_Run_05.wav
-  artifactKey: Guid(8c2c6c300bd8fc441878f426377bec64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Run/Footsteps_Tile_Run_05.wav using Guid(8c2c6c300bd8fc441878f426377bec64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a91978187d49729b2257c5e0476c41') in 0.007802 seconds
-  Import took 0.009420 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Run/Footsteps_Tile_Run_06.wav
-  artifactKey: Guid(f8e559768bed7ed4680ab0449da7ec3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Run/Footsteps_Tile_Run_06.wav using Guid(f8e559768bed7ed4680ab0449da7ec3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b947cfb1fb9e14590740a2f30c2a6ab') in 0.008708 seconds
-  Import took 0.010372 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Run/Footsteps_Tile_Run_04.wav
-  artifactKey: Guid(e331a9e83f5b77e49bd9efba1b2c2fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Run/Footsteps_Tile_Run_04.wav using Guid(e331a9e83f5b77e49bd9efba1b2c2fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b0fe374ba06ac871ab9ecb0e9988f23') in 0.008764 seconds
-  Import took 0.010314 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Run/Footsteps_Tile_Run_02.wav
-  artifactKey: Guid(5a5fe2a543e35ef44980fcf5ac79551a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Run/Footsteps_Tile_Run_02.wav using Guid(5a5fe2a543e35ef44980fcf5ac79551a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e63dd471dadbe4245e26bdebf09a41') in 0.008488 seconds
-  Import took 0.010311 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Run/Footsteps_Tile_Run_03.wav
-  artifactKey: Guid(062aac8f0463d7945a5a16732efbea51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Run/Footsteps_Tile_Run_03.wav using Guid(062aac8f0463d7945a5a16732efbea51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef5489f1d59731d933bfdc44410d099') in 0.009513 seconds
-  Import took 0.011310 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 43.910603 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Water
-  artifactKey: Guid(08dfc10cc01c2514aa493c96f4782821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Water using Guid(08dfc10cc01c2514aa493c96f4782821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f2fc9118c1ea7462162ace57d9360ab') in 0.005694 seconds
-  Import took 0.007493 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.559998 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Wood
-  artifactKey: Guid(1eecb70b032a2f3408a0684950c21867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Wood using Guid(1eecb70b032a2f3408a0684950c21867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f658b311f148bd353d6e96f2466a5c') in 0.004593 seconds
-  Import took 0.006307 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.865528 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Run
-  artifactKey: Guid(796417c01dee09040a6f8f203d99b894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Run using Guid(796417c01dee09040a6f8f203d99b894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad700a41c1b9d5537e6a2a04b7497b8b') in 0.005118 seconds
-  Import took 0.061393 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.039040 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Run/Footsteps_Wood_Run_01.wav
-  artifactKey: Guid(505a015d5525e0442ae4a62d5bac304d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Run/Footsteps_Wood_Run_01.wav using Guid(505a015d5525e0442ae4a62d5bac304d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '060288fbed5f3bd7ae8369b76ea46043') in 0.010194 seconds
-  Import took 0.012044 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Run/Footsteps_Wood_Run_07.wav
-  artifactKey: Guid(b30822d7e7d412d459397d0749be742a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Run/Footsteps_Wood_Run_07.wav using Guid(b30822d7e7d412d459397d0749be742a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64d508eb8601e99a879fcb4e88730553') in 0.010632 seconds
-  Import took 0.012511 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Run/Footsteps_Wood_Run_03.wav
-  artifactKey: Guid(2802b1a72217c464ea0171ad67e835f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Run/Footsteps_Wood_Run_03.wav using Guid(2802b1a72217c464ea0171ad67e835f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d606702e1a5498183e2934bbe6d813') in 0.014940 seconds
-  Import took 0.017144 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Run/Footsteps_Wood_Run_05.wav
-  artifactKey: Guid(8b4e405a508185e428652ccc26469d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Run/Footsteps_Wood_Run_05.wav using Guid(8b4e405a508185e428652ccc26469d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df36f58f9d612afd937cc37193c1456') in 0.009420 seconds
-  Import took 0.011109 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Run/Footsteps_Wood_Run_08.wav
-  artifactKey: Guid(7f31ac62883f78b4ba610e164f57f879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Run/Footsteps_Wood_Run_08.wav using Guid(7f31ac62883f78b4ba610e164f57f879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e45f121b87235be74ac078e38caf195') in 0.011428 seconds
-  Import took 0.013021 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000121 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Run/Footsteps_Wood_Run_06.wav
-  artifactKey: Guid(cee4ef3ef0fd155409f7b5a5162cece8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Run/Footsteps_Wood_Run_06.wav using Guid(cee4ef3ef0fd155409f7b5a5162cece8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb3e0dfc8f1bc205ac1f176c67a182e7') in 0.009979 seconds
-  Import took 0.012036 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Run/Footsteps_Wood_Run_09.wav
-  artifactKey: Guid(2c37f11b2d56b374ebf354853c6ad643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Run/Footsteps_Wood_Run_09.wav using Guid(2c37f11b2d56b374ebf354853c6ad643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbedd9ca3e47b44290e7c516969a5a6f') in 0.009165 seconds
-  Import took 0.010786 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Run/Footsteps_Wood_Run_02.wav
-  artifactKey: Guid(7ffe843b3b9c8d14792d912d39646105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Run/Footsteps_Wood_Run_02.wav using Guid(7ffe843b3b9c8d14792d912d39646105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8f9b970bff9233c664f930285a9cf78') in 0.011483 seconds
-  Import took 0.013184 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Run/Footsteps_Wood_Run_10.wav
-  artifactKey: Guid(75d4e54cf94712d4e8de7ce385abceb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Run/Footsteps_Wood_Run_10.wav using Guid(75d4e54cf94712d4e8de7ce385abceb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0564611dde9679e4c23632939753394b') in 0.010019 seconds
-  Import took 0.011763 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Run/Footsteps_Wood_Run_04.wav
-  artifactKey: Guid(88da42c7018c0fa41870ccf17d13da9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Run/Footsteps_Wood_Run_04.wav using Guid(88da42c7018c0fa41870ccf17d13da9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66af8fdc60c0d4f6b37e1f974d458005') in 0.014944 seconds
-  Import took 0.016659 seconds .
+  Time since last request: 33.111768 seconds.
+  path: Assets/Scripts/Player_Move.cs
+  artifactKey: Guid(eeaef335dfdfef947b6a159a4c71bf17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player_Move.cs using Guid(eeaef335dfdfef947b6a159a4c71bf17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c20a35ecfcb740acb702b3b24eb689') in 0.002154 seconds
+  Import took 0.004081 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000577 seconds.
+Registered in 0.000494 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.663 seconds
+- Completed reload, in  0.686 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.2 MB.
+System memory in use after: 129.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1573.
+Total: 1.705100 ms (FindLiveObjects: 0.162100 ms CreateObjectMapping: 0.042200 ms MarkObjects: 1.442400 ms  DeleteObjects: 0.057500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000929 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.714 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.2 MB.
+System memory in use after: 129.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1576.
+Total: 1.340300 ms (FindLiveObjects: 0.122300 ms CreateObjectMapping: 0.032700 ms MarkObjects: 1.128300 ms  DeleteObjects: 0.056400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000826 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.690 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.2 MB.
+System memory in use after: 129.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1579.
+Total: 2.074500 ms (FindLiveObjects: 0.127500 ms CreateObjectMapping: 0.037400 ms MarkObjects: 1.848000 ms  DeleteObjects: 0.060600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 163.540774 seconds.
+  path: Assets/Scripts/Player_Move.cs
+  artifactKey: Guid(eeaef335dfdfef947b6a159a4c71bf17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player_Move.cs using Guid(eeaef335dfdfef947b6a159a4c71bf17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9e5a8d4d5ab85d6b727ddf168c7b25') in 0.003905 seconds
+  Import took 0.005593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.028598 seconds.
+  path: Assets/Scripts/Player_Move.cs
+  artifactKey: Guid(eeaef335dfdfef947b6a159a4c71bf17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player_Move.cs using Guid(eeaef335dfdfef947b6a159a4c71bf17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9e5a8d4d5ab85d6b727ddf168c7b25') in 0.002016 seconds
+  Import took 0.003617 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000648 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.702 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.2 MB.
+System memory in use after: 129.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1582.
+Total: 1.637300 ms (FindLiveObjects: 0.171700 ms CreateObjectMapping: 0.045800 ms MarkObjects: 1.357000 ms  DeleteObjects: 0.061500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.896110 seconds.
+  path: Assets/Scripts/Player_Move.cs
+  artifactKey: Guid(eeaef335dfdfef947b6a159a4c71bf17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player_Move.cs using Guid(eeaef335dfdfef947b6a159a4c71bf17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e9379a56eac6db69f64ea03ac6022d1') in 0.003618 seconds
+  Import took 0.005399 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000737 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.685 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.3 MB.
-System memory in use after: 132.4 MB.
+System memory in use before: 129.2 MB.
+System memory in use after: 129.3 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1582.
-Total: 1.406200 ms (FindLiveObjects: 0.130700 ms CreateObjectMapping: 0.032200 ms MarkObjects: 1.157400 ms  DeleteObjects: 0.065200 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1585.
+Total: 1.506900 ms (FindLiveObjects: 0.160800 ms CreateObjectMapping: 0.034000 ms MarkObjects: 1.246800 ms  DeleteObjects: 0.062600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.702072 seconds.
+  path: Assets/Scripts/Player_Move.cs
+  artifactKey: Guid(eeaef335dfdfef947b6a159a4c71bf17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player_Move.cs using Guid(eeaef335dfdfef947b6a159a4c71bf17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b1b930c4bc9c28e67e41eb34420ab6e') in 0.003399 seconds
+  Import took 0.004965 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000622 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.666 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.2 MB.
+System memory in use after: 129.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1588.
+Total: 1.469400 ms (FindLiveObjects: 0.127700 ms CreateObjectMapping: 0.038600 ms MarkObjects: 1.242900 ms  DeleteObjects: 0.059200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1961.925512 seconds.
+  path: Assets/Car Engine Sounds - i6 German Free/Assets for Realistic Engine Sounds
+  artifactKey: Guid(3e8d5fe3513e2a24aaddb9fd4e8c093e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car Engine Sounds - i6 German Free/Assets for Realistic Engine Sounds using Guid(3e8d5fe3513e2a24aaddb9fd4e8c093e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7971648ad7dd641125cb33d064f34b2') in 0.007557 seconds
+  Import took 0.009749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.316220 seconds.
+  path: Assets/Car Engine Sounds - i6 German Free/Demo_Audio
+  artifactKey: Guid(cdd26afcc49b7b842832081e45b747f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car Engine Sounds - i6 German Free/Demo_Audio using Guid(cdd26afcc49b7b842832081e45b747f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf9fcd86c0622121efc0fbed1d0225e7') in 0.006063 seconds
+  Import took 0.007809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081198 seconds.
+  path: Assets/Car Engine Sounds - i6 German Free/Demo_Audio/demo_acceleration.wav
+  artifactKey: Guid(21fedba81dfab0a4da860d960074ef71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car Engine Sounds - i6 German Free/Demo_Audio/demo_acceleration.wav using Guid(21fedba81dfab0a4da860d960074ef71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '819877f7c2806721ebec348c33c202a7') in 0.085471 seconds
+  Import took 0.087184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Car Engine Sounds - i6 German Free/Demo_Audio/demo_int_on_to_off.wav
+  artifactKey: Guid(25f67b08d8a838646bf90a1ccf09c391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car Engine Sounds - i6 German Free/Demo_Audio/demo_int_on_to_off.wav using Guid(25f67b08d8a838646bf90a1ccf09c391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ab0107c8e325816e77511aac17afa9') in 0.009826 seconds
+  Import took 0.011469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Car Engine Sounds - i6 German Free/Demo_Audio/demo_on_to_off.wav
+  artifactKey: Guid(1ece7ef4bd6809042be6cf27537b66fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car Engine Sounds - i6 German Free/Demo_Audio/demo_on_to_off.wav using Guid(1ece7ef4bd6809042be6cf27537b66fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58136d1e1a53c8085518d637900cf460') in 0.010842 seconds
+  Import took 0.012488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Car Engine Sounds - i6 German Free/Demo_Audio/demo_deceleration.wav
+  artifactKey: Guid(6b50c52a19c27c845a9adc71333d43ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car Engine Sounds - i6 German Free/Demo_Audio/demo_deceleration.wav using Guid(6b50c52a19c27c845a9adc71333d43ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df25485e5876733b6035e29e64214bdd') in 0.012819 seconds
+  Import took 0.014778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Car Engine Sounds - i6 German Free/Demo_Audio/demo_int_deceleration.wav
+  artifactKey: Guid(f819464f29a5f124b8bacdad76c0be63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car Engine Sounds - i6 German Free/Demo_Audio/demo_int_deceleration.wav using Guid(f819464f29a5f124b8bacdad76c0be63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c1d9f4ea54d013572a1ecf82c19854') in 0.011730 seconds
+  Import took 0.013523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Car Engine Sounds - i6 German Free/Demo_Audio/demo_int_acceleration.wav
+  artifactKey: Guid(022d54410e2794249a7c962c4977dd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car Engine Sounds - i6 German Free/Demo_Audio/demo_int_acceleration.wav using Guid(022d54410e2794249a7c962c4977dd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09d87d767308c1ba7dc8e06499c94449') in 0.013425 seconds
+  Import took 0.015135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005654 seconds.
+  path: Assets/Car Engine Sounds - i6 German Free/Demo_Audio/demo_int_deceleration.wav
+  artifactKey: Guid(f819464f29a5f124b8bacdad76c0be63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car Engine Sounds - i6 German Free/Demo_Audio/demo_int_deceleration.wav using Guid(f819464f29a5f124b8bacdad76c0be63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c1d9f4ea54d013572a1ecf82c19854') in 0.009894 seconds
+  Import took 0.011763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.318384 seconds.
+  path: Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/high_off.wav
+  artifactKey: Guid(132c1515ea005404fb6144c976c99ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/high_off.wav using Guid(132c1515ea005404fb6144c976c99ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e28b66f77e9139c867218eb266146d70') in 0.012133 seconds
+  Import took 0.014146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/idle.wav
+  artifactKey: Guid(c502041826854664683f9914f63427b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/idle.wav using Guid(c502041826854664683f9914f63427b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a015b299b7ac33d7c7863a157897c9d7') in 0.011410 seconds
+  Import took 0.013274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/low_on.wav
+  artifactKey: Guid(75fa27e467267c74f91f1f6f4e74ff88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/low_on.wav using Guid(75fa27e467267c74f91f1f6f4e74ff88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '363ba6083aaf1f11e882707463555ab2') in 0.012866 seconds
+  Import took 0.014706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/low_off.wav
+  artifactKey: Guid(bb683044c23cd50438d45fe475089c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/low_off.wav using Guid(bb683044c23cd50438d45fe475089c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e507310de1e0e6a82f8931f8773aec4c') in 0.011447 seconds
+  Import took 0.013179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/maxRPM.wav
+  artifactKey: Guid(aa60e7347d433244fb6223eac9a95b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/maxRPM.wav using Guid(aa60e7347d433244fb6223eac9a95b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056bc0c0c42cb58fe984638175afd1ca') in 0.012680 seconds
+  Import took 0.102736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/med_on.wav
+  artifactKey: Guid(22cd46996da3b624bb08935264560d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/med_on.wav using Guid(22cd46996da3b624bb08935264560d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3fe5ee70b1b1fc0dad22c144ba6d0ab') in 0.010914 seconds
+  Import took 0.012603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/startup.wav
+  artifactKey: Guid(4ce5536d09910a148a92ac5408ae3c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/startup.wav using Guid(4ce5536d09910a148a92ac5408ae3c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5574bf69428d21ba77c6250243a38003') in 0.010331 seconds
+  Import took 0.012129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/med_off.wav
+  artifactKey: Guid(30ab19edabbfdea499f3db426001e120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/med_off.wav using Guid(30ab19edabbfdea499f3db426001e120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb797c43c2f22e544dc82b5c1d6417e3') in 0.009797 seconds
+  Import took 0.011824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/high_on.wav
+  artifactKey: Guid(e9643d8581d235f45a62997cba851988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/high_on.wav using Guid(e9643d8581d235f45a62997cba851988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b1909840ff332b21e0a208038fab30') in 0.014311 seconds
+  Import took 0.016067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010013 seconds.
+  path: Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/med_off.wav
+  artifactKey: Guid(30ab19edabbfdea499f3db426001e120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/med_off.wav using Guid(30ab19edabbfdea499f3db426001e120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb797c43c2f22e544dc82b5c1d6417e3') in 0.016208 seconds
+  Import took 0.017912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.890709 seconds.
+  path: Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/Interior
+  artifactKey: Guid(174299182d9c54e49baaac2de28e5274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/Interior using Guid(174299182d9c54e49baaac2de28e5274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '303491bb9134f854f97e5dc1b0ac5ffb') in 0.004917 seconds
+  Import took 0.006624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050246 seconds.
+  path: Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/Interior/int_high_off.wav
+  artifactKey: Guid(1a28469b66ddc3f4394165b2634f368d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/Interior/int_high_off.wav using Guid(1a28469b66ddc3f4394165b2634f368d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '297617ce4c7475fded73e7f25b57b792') in 0.010171 seconds
+  Import took 0.011900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/Interior/int_idle.wav
+  artifactKey: Guid(79a92db4ffb20fd449e669effcfbde63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/Interior/int_idle.wav using Guid(79a92db4ffb20fd449e669effcfbde63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b948c19fcfe54615c6a432eb2735ec7') in 0.009734 seconds
+  Import took 0.011294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/Interior/int_startup.wav
+  artifactKey: Guid(67ae6a1dbba409441aaebc58317a1679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/Interior/int_startup.wav using Guid(67ae6a1dbba409441aaebc58317a1679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3899909c6dff17dfdb317cfc40783cee') in 0.010439 seconds
+  Import took 0.012135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/Interior/int_med_off.wav
+  artifactKey: Guid(aab9893499f2db14d982ea3c214622ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/Interior/int_med_off.wav using Guid(aab9893499f2db14d982ea3c214622ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9cf72eea0abddc23a7f53a7007ddb7b') in 0.013433 seconds
+  Import took 0.015036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/Interior/int_low_on.wav
+  artifactKey: Guid(caf21a066ef472541b74cc6f46cb4d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/Interior/int_low_on.wav using Guid(caf21a066ef472541b74cc6f46cb4d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eef82c85f40beb9e5deabfbda17e32e') in 0.022078 seconds
+  Import took 0.023755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/Interior/int_maxRPM.wav
+  artifactKey: Guid(01c67f1834599824a880b36282466c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/Interior/int_maxRPM.wav using Guid(01c67f1834599824a880b36282466c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb33474dd8b0bda3d416286c22357c1') in 0.018380 seconds
+  Import took 0.020049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/Interior/int_med_on.wav
+  artifactKey: Guid(92b51350a374b0145ba411bf6037d2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/Interior/int_med_on.wav using Guid(92b51350a374b0145ba411bf6037d2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01e3737722a80a76426420ec686c4ca') in 0.009863 seconds
+  Import took 0.011565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/Interior/int_low_off.wav
+  artifactKey: Guid(3048985a7798b684d860bddb83bbc5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/Interior/int_low_off.wav using Guid(3048985a7798b684d860bddb83bbc5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b903a1347cf939d249153d2daca5925') in 0.013637 seconds
+  Import took 0.015346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/Interior/int_high_on.wav
+  artifactKey: Guid(ee68262e7a73a4c4b8e940ecd2330b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/Interior/int_high_on.wav using Guid(ee68262e7a73a4c4b8e940ecd2330b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e6fa52b6552507fb48b9ad09da5ba0') in 0.009937 seconds
+  Import took 0.012120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.776636 seconds.
+  path: Assets/Prefabs/Car2.prefab
+  artifactKey: Guid(e479006ea97f21a41a0e6b83b851bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Car2.prefab using Guid(e479006ea97f21a41a0e6b83b851bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65dd1dad5993cb55ad3e1bbeb7e80e31') in 0.037144 seconds
+  Import took 0.039021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.652025 seconds.
+  path: Assets/Prefabs/Car2.prefab
+  artifactKey: Guid(e479006ea97f21a41a0e6b83b851bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Car2.prefab using Guid(e479006ea97f21a41a0e6b83b851bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4184ec1dcafb27ff0b70db50721c6fc7') in 0.009928 seconds
+  Import took 0.012221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.541498 seconds.
+  path: Assets/Prefabs/Car2.prefab
+  artifactKey: Guid(e479006ea97f21a41a0e6b83b851bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Car2.prefab using Guid(e479006ea97f21a41a0e6b83b851bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0439ae012ff024930b15e40c10f46c15') in 0.010868 seconds
+  Import took 0.013261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.717170 seconds.
+  path: Assets/Prefabs/Car2.prefab
+  artifactKey: Guid(e479006ea97f21a41a0e6b83b851bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Car2.prefab using Guid(e479006ea97f21a41a0e6b83b851bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ef3035e8f89fedbbdf8f321f06e6e7') in 0.010557 seconds
+  Import took 0.012665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.789943 seconds.
+  path: Assets/Prefabs/Car_01_06.prefab
+  artifactKey: Guid(afcb5da7562b3dd468d16849b91034c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Car_01_06.prefab using Guid(afcb5da7562b3dd468d16849b91034c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e4f324e4a714b6aedfa780c733b118') in 0.015536 seconds
+  Import took 0.017962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020866 seconds.
+  path: Assets/Prefabs/Car_01_06.prefab
+  artifactKey: Guid(afcb5da7562b3dd468d16849b91034c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Car_01_06.prefab using Guid(afcb5da7562b3dd468d16849b91034c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e4f324e4a714b6aedfa780c733b118') in 0.012146 seconds
+  Import took 0.014400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.026737 seconds.
+  path: Assets/Prefabs/Car_01_06.prefab
+  artifactKey: Guid(afcb5da7562b3dd468d16849b91034c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Car_01_06.prefab using Guid(afcb5da7562b3dd468d16849b91034c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8bf933fe2aa778890ae14414b3bdc31') in 0.011357 seconds
+  Import took 0.013444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022119 seconds.
+  path: Assets/Prefabs/Car_01_06.prefab
+  artifactKey: Guid(afcb5da7562b3dd468d16849b91034c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Car_01_06.prefab using Guid(afcb5da7562b3dd468d16849b91034c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8bf933fe2aa778890ae14414b3bdc31') in 0.011909 seconds
+  Import took 0.014117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.758844 seconds.
+  path: Assets/Prefabs/Chevrolet_Camaro_SS_High.prefab
+  artifactKey: Guid(8c5d62143806cea43992a5826740d11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chevrolet_Camaro_SS_High.prefab using Guid(8c5d62143806cea43992a5826740d11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab7e6494a3c1f4a619d429358803cc3') in 0.139219 seconds
+  Import took 0.145336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.694098 seconds.
+  path: Assets/Prefabs/Chevrolet_Camaro_SS_High.prefab
+  artifactKey: Guid(8c5d62143806cea43992a5826740d11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chevrolet_Camaro_SS_High.prefab using Guid(8c5d62143806cea43992a5826740d11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c75cddc548ec435e984cef76c19189') in 0.032073 seconds
+  Import took 0.034697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011776 seconds.
+  path: Assets/Prefabs/Chevrolet_Camaro_SS_High.prefab
+  artifactKey: Guid(8c5d62143806cea43992a5826740d11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chevrolet_Camaro_SS_High.prefab using Guid(8c5d62143806cea43992a5826740d11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32c75cddc548ec435e984cef76c19189') in 0.021955 seconds
+  Import took 0.024341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.928420 seconds.
+  path: Assets/Prefabs/Chevrolet_Camaro_SS_High.prefab
+  artifactKey: Guid(8c5d62143806cea43992a5826740d11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chevrolet_Camaro_SS_High.prefab using Guid(8c5d62143806cea43992a5826740d11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7da06d2692258910654dda151ca129') in 0.023136 seconds
+  Import took 0.025602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015741 seconds.
+  path: Assets/Prefabs/Chevrolet_Camaro_SS_High.prefab
+  artifactKey: Guid(8c5d62143806cea43992a5826740d11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chevrolet_Camaro_SS_High.prefab using Guid(8c5d62143806cea43992a5826740d11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7da06d2692258910654dda151ca129') in 0.024780 seconds
+  Import took 0.028263 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000663 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.654 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.5 MB.
+System memory in use after: 132.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1602.
+Total: 1.379800 ms (FindLiveObjects: 0.183200 ms CreateObjectMapping: 0.031400 ms MarkObjects: 1.112900 ms  DeleteObjects: 0.050500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.527093 seconds.
+  path: Assets/Prefabs/Car2.prefab
+  artifactKey: Guid(e479006ea97f21a41a0e6b83b851bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Car2.prefab using Guid(e479006ea97f21a41a0e6b83b851bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd09e272ee5a6843283679a0f74df362a') in 0.057653 seconds
+  Import took 0.059745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.568668 seconds.
+  path: Assets/Prefabs/Car_01_06.prefab
+  artifactKey: Guid(afcb5da7562b3dd468d16849b91034c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Car_01_06.prefab using Guid(afcb5da7562b3dd468d16849b91034c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe32e52970b4751c368d3b8750f40b76') in 0.012707 seconds
+  Import took 0.014810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019823 seconds.
+  path: Assets/Prefabs/Car_01_06.prefab
+  artifactKey: Guid(afcb5da7562b3dd468d16849b91034c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Car_01_06.prefab using Guid(afcb5da7562b3dd468d16849b91034c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe32e52970b4751c368d3b8750f40b76') in 0.015745 seconds
+  Import took 0.018092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.993475 seconds.
+  path: Assets/Prefabs/Chevrolet_Camaro_SS_High.prefab
+  artifactKey: Guid(8c5d62143806cea43992a5826740d11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chevrolet_Camaro_SS_High.prefab using Guid(8c5d62143806cea43992a5826740d11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea45b9f2bd41090bc4bc2163b0b865f0') in 0.022809 seconds
+  Import took 0.141683 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000716 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.672 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.5 MB.
+System memory in use after: 132.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1606.
+Total: 1.387100 ms (FindLiveObjects: 0.122600 ms CreateObjectMapping: 0.033200 ms MarkObjects: 1.162600 ms  DeleteObjects: 0.067500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.021277 seconds.
+  path: Assets/Prefabs/Chevrolet_Camaro_SS_High.prefab
+  artifactKey: Guid(8c5d62143806cea43992a5826740d11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chevrolet_Camaro_SS_High.prefab using Guid(8c5d62143806cea43992a5826740d11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e2abded0e2663b50214f18075b140e') in 0.066413 seconds
+  Import took 0.068806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.797423 seconds.
+  path: Assets/Prefabs/Chevrolet_Camaro_SS_High.prefab
+  artifactKey: Guid(8c5d62143806cea43992a5826740d11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chevrolet_Camaro_SS_High.prefab using Guid(8c5d62143806cea43992a5826740d11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b5aa9e3f9f42a4170de67f3ae971827') in 0.022959 seconds
+  Import took 0.025554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014250 seconds.
+  path: Assets/Prefabs/Chevrolet_Camaro_SS_High.prefab
+  artifactKey: Guid(8c5d62143806cea43992a5826740d11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chevrolet_Camaro_SS_High.prefab using Guid(8c5d62143806cea43992a5826740d11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b5aa9e3f9f42a4170de67f3ae971827') in 0.017838 seconds
+  Import took 0.020288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.211727 seconds.
+  path: Assets/Prefabs/Car_01_06.prefab
+  artifactKey: Guid(afcb5da7562b3dd468d16849b91034c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Car_01_06.prefab using Guid(afcb5da7562b3dd468d16849b91034c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84f1b451ba75135d33e358a0bf57cf3') in 0.012265 seconds
+  Import took 0.028273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003077 seconds.
+  path: Assets/Prefabs/Car_01_06.prefab
+  artifactKey: Guid(afcb5da7562b3dd468d16849b91034c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Car_01_06.prefab using Guid(afcb5da7562b3dd468d16849b91034c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84f1b451ba75135d33e358a0bf57cf3') in 0.012852 seconds
+  Import took 0.014946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.600915 seconds.
+  path: Assets/Prefabs/Car2.prefab
+  artifactKey: Guid(e479006ea97f21a41a0e6b83b851bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Car2.prefab using Guid(e479006ea97f21a41a0e6b83b851bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '927caa572eb01e69ab6a94c302d7c09e') in 0.009603 seconds
+  Import took 0.011549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020920 seconds.
+  path: Assets/Prefabs/Car2.prefab
+  artifactKey: Guid(e479006ea97f21a41a0e6b83b851bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Car2.prefab using Guid(e479006ea97f21a41a0e6b83b851bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '927caa572eb01e69ab6a94c302d7c09e') in 0.013628 seconds
+  Import took 0.016203 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000586 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.658 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.5 MB.
+System memory in use after: 132.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1610.
+Total: 1.543600 ms (FindLiveObjects: 0.245300 ms CreateObjectMapping: 0.031800 ms MarkObjects: 1.163600 ms  DeleteObjects: 0.100800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.830310 seconds.
+  path: Assets/Prefabs/Car2.prefab
+  artifactKey: Guid(e479006ea97f21a41a0e6b83b851bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Car2.prefab using Guid(e479006ea97f21a41a0e6b83b851bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3109b4147d91ce2dfc719608805b06') in 0.063149 seconds
+  Import took 0.065166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005592 seconds.
+  path: Assets/Prefabs/Car2.prefab
+  artifactKey: Guid(e479006ea97f21a41a0e6b83b851bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Car2.prefab using Guid(e479006ea97f21a41a0e6b83b851bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195db0bc2e9fd283cfc2f55fe6a044ed') in 0.009470 seconds
+  Import took 0.011614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020624 seconds.
+  path: Assets/Prefabs/Car2.prefab
+  artifactKey: Guid(e479006ea97f21a41a0e6b83b851bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Car2.prefab using Guid(e479006ea97f21a41a0e6b83b851bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195db0bc2e9fd283cfc2f55fe6a044ed') in 0.011972 seconds
+  Import took 0.013973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.062456 seconds.
+  path: Assets/Prefabs/Car_01_06.prefab
+  artifactKey: Guid(afcb5da7562b3dd468d16849b91034c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Car_01_06.prefab using Guid(afcb5da7562b3dd468d16849b91034c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afdcbe11f7b504c1353217be0de6d24a') in 0.012912 seconds
+  Import took 0.014991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026499 seconds.
+  path: Assets/Prefabs/Car_01_06.prefab
+  artifactKey: Guid(afcb5da7562b3dd468d16849b91034c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Car_01_06.prefab using Guid(afcb5da7562b3dd468d16849b91034c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afdcbe11f7b504c1353217be0de6d24a') in 0.011160 seconds
+  Import took 0.013484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.490742 seconds.
+  path: Assets/Prefabs/Chevrolet_Camaro_SS_High.prefab
+  artifactKey: Guid(8c5d62143806cea43992a5826740d11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chevrolet_Camaro_SS_High.prefab using Guid(8c5d62143806cea43992a5826740d11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c76ca8a95a1b60e935ed20ee49fd849e') in 0.015178 seconds
+  Import took 0.018303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013946 seconds.
+  path: Assets/Prefabs/Chevrolet_Camaro_SS_High.prefab
+  artifactKey: Guid(8c5d62143806cea43992a5826740d11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chevrolet_Camaro_SS_High.prefab using Guid(8c5d62143806cea43992a5826740d11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c76ca8a95a1b60e935ed20ee49fd849e') in 0.016196 seconds
+  Import took 0.019519 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000733 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.815 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.5 MB.
+System memory in use after: 132.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1614.
+Total: 1.791200 ms (FindLiveObjects: 0.141100 ms CreateObjectMapping: 0.038000 ms MarkObjects: 1.552700 ms  DeleteObjects: 0.058000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000586 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.665 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.5 MB.
+System memory in use after: 132.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1617.
+Total: 1.991600 ms (FindLiveObjects: 0.138000 ms CreateObjectMapping: 0.040300 ms MarkObjects: 1.743700 ms  DeleteObjects: 0.068700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.055198 seconds.
+  path: Assets/Prefabs/Chevrolet_Camaro_SS_High.prefab
+  artifactKey: Guid(8c5d62143806cea43992a5826740d11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chevrolet_Camaro_SS_High.prefab using Guid(8c5d62143806cea43992a5826740d11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfd0cdd5e84f50865737a467e952a5ae') in 0.058572 seconds
+  Import took 0.061333 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000891 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.684 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.5 MB.
+System memory in use after: 132.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1621.
+Total: 1.326200 ms (FindLiveObjects: 0.120800 ms CreateObjectMapping: 0.033700 ms MarkObjects: 1.119100 ms  DeleteObjects: 0.051900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000728 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.811 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.6 MB.
+System memory in use after: 132.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1624.
+Total: 1.889500 ms (FindLiveObjects: 0.169200 ms CreateObjectMapping: 0.048200 ms MarkObjects: 1.605700 ms  DeleteObjects: 0.064600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000606 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.705 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.6 MB.
+System memory in use after: 132.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1627.
+Total: 1.708900 ms (FindLiveObjects: 0.175400 ms CreateObjectMapping: 0.062900 ms MarkObjects: 1.417900 ms  DeleteObjects: 0.051600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000526 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.695 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.6 MB.
+System memory in use after: 132.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1630.
+Total: 1.658200 ms (FindLiveObjects: 0.213000 ms CreateObjectMapping: 0.090300 ms MarkObjects: 1.296200 ms  DeleteObjects: 0.057200 ms)
 
 ========================================================================
 Received Prepare
@@ -425,716 +935,31 @@ Registered in 0.000574 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.667 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.4 MB.
-System memory in use after: 132.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1585.
-Total: 2.165800 ms (FindLiveObjects: 0.128500 ms CreateObjectMapping: 0.037500 ms MarkObjects: 1.924200 ms  DeleteObjects: 0.074400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 195.509951 seconds.
-  path: Assets/Prefabs/Car_01_06.prefab
-  artifactKey: Guid(afcb5da7562b3dd468d16849b91034c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car_01_06.prefab using Guid(afcb5da7562b3dd468d16849b91034c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fde727480c8cd2330c42724bbc729cc') in 0.062514 seconds
-  Import took 0.064617 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.411565 seconds.
-  path: Assets/Prefabs/Car_01_06.prefab
-  artifactKey: Guid(afcb5da7562b3dd468d16849b91034c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car_01_06.prefab using Guid(afcb5da7562b3dd468d16849b91034c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162f6406478f12bfd28101ec5dd5e41f') in 0.025716 seconds
-  Import took 0.028099 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 41.412275 seconds.
-  path: Assets/Sounds/Footsteps_DirtyGround/Footsteps_DirtyGround_Run
-  artifactKey: Guid(60cdcd4cdcceaaf4c8d06a585fc15182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Footsteps_DirtyGround/Footsteps_DirtyGround_Run using Guid(60cdcd4cdcceaaf4c8d06a585fc15182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58bd310c4e97da626b7a76d279848613') in 0.006324 seconds
-  Import took 0.008188 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.043751 seconds.
-  path: Assets/Sounds/Footsteps_DirtyGround/Footsteps_DirtyGround_Run/Footsteps_DirtyGround_Run_01.wav
-  artifactKey: Guid(9e68ea1ebd76aa44c8cfa5beb9850830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Footsteps_DirtyGround/Footsteps_DirtyGround_Run/Footsteps_DirtyGround_Run_01.wav using Guid(9e68ea1ebd76aa44c8cfa5beb9850830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9623acf8386184dee5026f3c8c2c3c2d') in 0.012799 seconds
-  Import took 0.014454 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Sounds/Footsteps_DirtyGround/Footsteps_DirtyGround_Run/Footsteps_DirtyGround_Run_05.wav
-  artifactKey: Guid(fa95ebee958fb0e41a42a832aab767eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Footsteps_DirtyGround/Footsteps_DirtyGround_Run/Footsteps_DirtyGround_Run_05.wav using Guid(fa95ebee958fb0e41a42a832aab767eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae135d6b068b6141b5b06239c3468c8') in 0.008483 seconds
-  Import took 0.010030 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/Sounds/Footsteps_DirtyGround/Footsteps_DirtyGround_Run/Footsteps_DirtyGround_Run_06.wav
-  artifactKey: Guid(0cfeb72dea261a54cb7672590d2d1656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Footsteps_DirtyGround/Footsteps_DirtyGround_Run/Footsteps_DirtyGround_Run_06.wav using Guid(0cfeb72dea261a54cb7672590d2d1656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edd52543d47b3f40ef404acf136008bb') in 0.010914 seconds
-  Import took 0.012571 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Sounds/Footsteps_DirtyGround/Footsteps_DirtyGround_Run/Footsteps_DirtyGround_Run_10.wav
-  artifactKey: Guid(f26cf9ded47cf0140957490a16f85acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Footsteps_DirtyGround/Footsteps_DirtyGround_Run/Footsteps_DirtyGround_Run_10.wav using Guid(f26cf9ded47cf0140957490a16f85acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7043eceda70d0bd96735bd28d556feef') in 0.009828 seconds
-  Import took 0.011408 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Sounds/Footsteps_DirtyGround/Footsteps_DirtyGround_Run/Footsteps_DirtyGround_Run_08.wav
-  artifactKey: Guid(6da235e2573048249bcbe608f984ff48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Footsteps_DirtyGround/Footsteps_DirtyGround_Run/Footsteps_DirtyGround_Run_08.wav using Guid(6da235e2573048249bcbe608f984ff48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e8c02199e0ca0ad067c2ccc49e79983') in 0.008687 seconds
-  Import took 0.010454 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/Sounds/Footsteps_DirtyGround/Footsteps_DirtyGround_Run/Footsteps_DirtyGround_Run_07.wav
-  artifactKey: Guid(924e3e09c67130946a6d7b666e8b8b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Footsteps_DirtyGround/Footsteps_DirtyGround_Run/Footsteps_DirtyGround_Run_07.wav using Guid(924e3e09c67130946a6d7b666e8b8b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b2bac2046e1db227f7c705690101330') in 0.008092 seconds
-  Import took 0.010139 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Sounds/Footsteps_DirtyGround/Footsteps_DirtyGround_Run/Footsteps_DirtyGround_Run_09.wav
-  artifactKey: Guid(fdc05ea2699023143ba7e93533cc5a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Footsteps_DirtyGround/Footsteps_DirtyGround_Run/Footsteps_DirtyGround_Run_09.wav using Guid(fdc05ea2699023143ba7e93533cc5a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4892b9b3c1728bab3b9f5645d448873a') in 0.008129 seconds
-  Import took 0.009752 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Sounds/Footsteps_DirtyGround/Footsteps_DirtyGround_Run/Footsteps_DirtyGround_Run_04.wav
-  artifactKey: Guid(1f2844efbf7abf647ba3d75d510f823a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Footsteps_DirtyGround/Footsteps_DirtyGround_Run/Footsteps_DirtyGround_Run_04.wav using Guid(1f2844efbf7abf647ba3d75d510f823a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef56bd0df3402f1be1d667c788dd9cac') in 0.007824 seconds
-  Import took 0.009422 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Sounds/Footsteps_DirtyGround/Footsteps_DirtyGround_Run/Footsteps_DirtyGround_Run_02.wav
-  artifactKey: Guid(1deb201b8bf8f89479323a74e421150b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Footsteps_DirtyGround/Footsteps_DirtyGround_Run/Footsteps_DirtyGround_Run_02.wav using Guid(1deb201b8bf8f89479323a74e421150b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6c5b7a66bdfc8e43ab690f552f4560f') in 0.008101 seconds
-  Import took 0.009685 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Sounds/Footsteps_DirtyGround/Footsteps_DirtyGround_Run/Footsteps_DirtyGround_Run_03.wav
-  artifactKey: Guid(7c518e8469a403b4c981664ecb28a79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Footsteps_DirtyGround/Footsteps_DirtyGround_Run/Footsteps_DirtyGround_Run_03.wav using Guid(7c518e8469a403b4c981664ecb28a79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a410554c86e0055930297f76b2e27b') in 0.007699 seconds
-  Import took 0.009326 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 149.654332 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples
-  artifactKey: Guid(f11c0fc6d24bb3b4cb50e6908487ee92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples using Guid(f11c0fc6d24bb3b4cb50e6908487ee92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6f467778b939479a5cd5922913943c') in 0.004823 seconds
-  Import took 0.006773 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.105305 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/AEROHeli_InsJ_Helicopter_Flyby_Distant_02.wav
-  artifactKey: Guid(523fc9761fcbb7a47b2e382687e4538e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/AEROHeli_InsJ_Helicopter_Flyby_Distant_02.wav using Guid(523fc9761fcbb7a47b2e382687e4538e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44caee7f935f79cdc0f7ae5b2a4b5fc8') in 0.009070 seconds
-  Import took 0.010699 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/DOORAntq_InsJ_Door_Church_Closing_01-01.wav
-  artifactKey: Guid(381258cd90e88984fb8ba31a8dd96fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/DOORAntq_InsJ_Door_Church_Closing_01-01.wav using Guid(381258cd90e88984fb8ba31a8dd96fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68632c4b0ae0b7f595571abe746453a8') in 0.009277 seconds
-  Import took 0.010947 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/CREAMnstr_InsJ_Monster_Growling_Male_09-01.wav
-  artifactKey: Guid(f0434bb09b6c86f48945c21555472d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/CREAMnstr_InsJ_Monster_Growling_Male_09-01.wav using Guid(f0434bb09b6c86f48945c21555472d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90f10c8c974d95d37e959ecfa2989e7c') in 0.009434 seconds
-  Import took 0.011066 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/CHAINImpt_InsJ_Chains_Metal_Dropping_Close_01-01.wav
-  artifactKey: Guid(f2278fecc222f14459622deee93a4eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/CHAINImpt_InsJ_Chains_Metal_Dropping_Close_01-01.wav using Guid(f2278fecc222f14459622deee93a4eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c74082384fbe19b760b4c7cac2fbd1') in 0.011378 seconds
-  Import took 0.012965 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/RAIN_InsJ_Ambience_Rain_Light_01_LOOP.wav
-  artifactKey: Guid(422a01e4a23540840b028a59d816ff20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/RAIN_InsJ_Ambience_Rain_Light_01_LOOP.wav using Guid(422a01e4a23540840b028a59d816ff20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29a962846804af33aa98312f9b02661a') in 0.009483 seconds
-  Import took 0.011119 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/TOYMech_InsJ_Toy_Plastic-Train_Moving_Close_Short_01-01.wav
-  artifactKey: Guid(88bd6a6606722514598208858f856c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/TOYMech_InsJ_Toy_Plastic-Train_Moving_Close_Short_01-01.wav using Guid(88bd6a6606722514598208858f856c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8638458ac8285a4ea484254c3aaa604') in 0.011442 seconds
-  Import took 0.013140 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/FEETHmn_InsJ_Footsteps_Ice_Walking_Trainers_02_Single-09.wav
-  artifactKey: Guid(be78ebb17a9ff2b47b0964b3046c1fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/FEETHmn_InsJ_Footsteps_Ice_Walking_Trainers_02_Single-09.wav using Guid(be78ebb17a9ff2b47b0964b3046c1fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a6c59f2106d7c7f50d0b96da8f6bcbb') in 0.009960 seconds
-  Import took 0.011521 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/AMBTech_InsJ_Ambience_Underground-Base_01-01_LOOP.wav
-  artifactKey: Guid(56e33d1cbc81cfd44a9505450240fe2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/AMBTech_InsJ_Ambience_Underground-Base_01-01_LOOP.wav using Guid(56e33d1cbc81cfd44a9505450240fe2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e001aa93eb20d6199c05a6e161ca16aa') in 0.011164 seconds
-  Import took 0.012955 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/FRWKComr_InsJ_Fireworks_Multi_Close_01-02-Crackle.wav
-  artifactKey: Guid(968908658fb3da642ae9ad9b54b4c4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/FRWKComr_InsJ_Fireworks_Multi_Close_01-02-Crackle.wav using Guid(968908658fb3da642ae9ad9b54b4c4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d15ab29208519e9d07ead7ca25a20d') in 0.008948 seconds
-  Import took 0.010546 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/MOTRElec_InsJ_Motor_Small_Long_Close_01-01.wav
-  artifactKey: Guid(098ea6bba65dcc946bd34d5e107bb288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/MOTRElec_InsJ_Motor_Small_Long_Close_01-01.wav using Guid(098ea6bba65dcc946bd34d5e107bb288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a4b3da67e6a13a7c949c144a7e90ef') in 0.016064 seconds
-  Import took 0.017732 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/TOOLPowr_InsJ_Lawn-Mower-01_Idling_Close_01-01.wav
-  artifactKey: Guid(3f046dadc8691cf469798a69f125f0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/TOOLPowr_InsJ_Lawn-Mower-01_Idling_Close_01-01.wav using Guid(3f046dadc8691cf469798a69f125f0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb360e2e8c3ac2291b559933381619cb') in 0.011326 seconds
-  Import took 0.012963 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000126 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/FARTReal_InsJ_Farting_Diarrhoea_Short_01-01.wav
-  artifactKey: Guid(b8415aaf28c324b458de185f0f82871d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/FARTReal_InsJ_Farting_Diarrhoea_Short_01-01.wav using Guid(b8415aaf28c324b458de185f0f82871d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca145fb7535b82d73da1381f4353010d') in 0.008682 seconds
-  Import took 0.010275 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/FEETHmn_InsJ_Footsteps_Glass_Running_Trainers_01-01_Single-01.wav
-  artifactKey: Guid(ccdc11c8aca43b447943d03982ddc44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/FEETHmn_InsJ_Footsteps_Glass_Running_Trainers_01-01_Single-01.wav using Guid(ccdc11c8aca43b447943d03982ddc44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b316ff18a5d360ecf843edd0dd3879') in 0.011170 seconds
-  Import took 0.013093 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/WHSH_InsJ_Whooshing_Bamboo_01-01.wav
-  artifactKey: Guid(df6d6e6970d3ebc40a5ecbe1e1f21c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/WHSH_InsJ_Whooshing_Bamboo_01-01.wav using Guid(df6d6e6970d3ebc40a5ecbe1e1f21c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff23102ac7e6c125bc23cb166ba6f8a8') in 0.008844 seconds
-  Import took 0.010523 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/CLOCKTick_InsJ_Clock-01_Ticking_Single-01.wav
-  artifactKey: Guid(2796991c2d63adf4c9c3d417a318aeaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/CLOCKTick_InsJ_Clock-01_Ticking_Single-01.wav using Guid(2796991c2d63adf4c9c3d417a318aeaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fcfdd3e62a50a72d4c7ffde3599d064') in 0.010401 seconds
-  Import took 0.012052 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/UIGlitch_InsJ_Glitching_Digital_Data-Corruption_01-01_LOOP.wav
-  artifactKey: Guid(fa5bfe488e476b847984af12128c70e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/UIGlitch_InsJ_Glitching_Digital_Data-Corruption_01-01_LOOP.wav using Guid(fa5bfe488e476b847984af12128c70e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b080825fb10b52005d56a11461717a5') in 0.009421 seconds
-  Import took 0.011079 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000121 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/FEETHmn_InsJ_Footsteps_Gravel_Jogging_Trainers_01-01_Single-02.wav
-  artifactKey: Guid(dd3a9bf23f1906c41820c9956b72b01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/FEETHmn_InsJ_Footsteps_Gravel_Jogging_Trainers_01-01_Single-02.wav using Guid(dd3a9bf23f1906c41820c9956b72b01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4f4de298434d25a4d7f50b9fa801f88') in 0.009531 seconds
-  Import took 0.011169 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/CMPTKey_InsJ_Mouse_Clicking_Single_01-01.wav
-  artifactKey: Guid(c65f5a28baa168d4bbcb020e7c0e345d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/CMPTKey_InsJ_Mouse_Clicking_Single_01-01.wav using Guid(c65f5a28baa168d4bbcb020e7c0e345d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1850426ff172ce8278427938da79849b') in 0.009372 seconds
-  Import took 0.011114 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/FIREBrst_InsJ_Flamethrower_Short_01-01_WET.wav
-  artifactKey: Guid(9558776529dbab5418c79032647f36ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/FIREBrst_InsJ_Flamethrower_Short_01-01_WET.wav using Guid(9558776529dbab5418c79032647f36ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '794b08278fb9eb11d20e6c78ac72ec82') in 0.009217 seconds
-  Import took 0.010814 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000118 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/COMCam_InsJ_Camera-01_Auto-Focus_01-01.wav
-  artifactKey: Guid(f3a17ee7ed955814d9bd12acfe38d181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/COMCam_InsJ_Camera-01_Auto-Focus_01-01.wav using Guid(f3a17ee7ed955814d9bd12acfe38d181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1868770d3569f5b20c3ba472b7c0cb81') in 0.008687 seconds
-  Import took 0.010436 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/AMBBird_InsJ_Ambience_Birds_Dawn-Chorus_01-01_LOOP.wav
-  artifactKey: Guid(e9d1c843e495c2c4eb9ae7b6fb15eadc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/AMBBird_InsJ_Ambience_Birds_Dawn-Chorus_01-01_LOOP.wav using Guid(e9d1c843e495c2c4eb9ae7b6fb15eadc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aa96283f6ec5cea52774bfa5c58046e') in 0.009838 seconds
-  Import took 0.011881 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/AMBUrbn_InsJ_Ambience_Busy-Street_Guildford_01-01_LOOP.wav
-  artifactKey: Guid(166f3c7373d540a46bc3712d724bd8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/AMBUrbn_InsJ_Ambience_Busy-Street_Guildford_01-01_LOOP.wav using Guid(166f3c7373d540a46bc3712d724bd8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a619af14856f0748d10ea7fa95ad0594') in 0.013862 seconds
-  Import took 0.015482 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/ANMLCat_InsJ_Cat_Purring_Female_02-01.wav
-  artifactKey: Guid(c65752e34ab58f5468b317fe21cb5f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/ANMLCat_InsJ_Cat_Purring_Female_02-01.wav using Guid(c65752e34ab58f5468b317fe21cb5f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44586746b17ff24ffe4118828f4f249b') in 0.008934 seconds
-  Import took 0.010670 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/ANMLPrim_InsJ_Gorillas_Vocalizing_Single_01-01.wav
-  artifactKey: Guid(e886b502824097d438107b45e0e6682b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/ANMLPrim_InsJ_Gorillas_Vocalizing_Single_01-01.wav using Guid(e886b502824097d438107b45e0e6682b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a7fd113db06d793f1248a48e5cfacab') in 0.012618 seconds
-  Import took 0.014255 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000126 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/UIAlert_InsJ_UI_Mechanical_Error_01_FX.wav
-  artifactKey: Guid(49935d2469955e347b4f657da6f18e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/UIAlert_InsJ_UI_Mechanical_Error_01_FX.wav using Guid(49935d2469955e347b4f657da6f18e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b10a090f64f11dd0eb1432ac2048239') in 0.009353 seconds
-  Import took 0.010975 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/VEHCar_1990s_InsJ_Car_Nissan-Serena_Button-01_01.wav
-  artifactKey: Guid(dfd742b227924bb4cb7c133c3d94c6da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/VEHCar_1990s_InsJ_Car_Nissan-Serena_Button-01_01.wav using Guid(dfd742b227924bb4cb7c133c3d94c6da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef9d82943a4bfb78cfc8493a9365248') in 0.009847 seconds
-  Import took 0.011704 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/OBJCoin_InsJ_Coin_Spending_01.wav
-  artifactKey: Guid(0e89b476d4715fd42935e9900eedb033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/OBJCoin_InsJ_Coin_Spending_01.wav using Guid(0e89b476d4715fd42935e9900eedb033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b79f5c2c84219a8f2e485c0d1599d14') in 0.009281 seconds
-  Import took 0.011209 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/VEHBike_InsJ_Bike_Bell-Ding-01_Close_Single_01-01.wav
-  artifactKey: Guid(5a96e2c290c5f3941bd4b25879ef7e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/VEHBike_InsJ_Bike_Bell-Ding-01_Close_Single_01-01.wav using Guid(5a96e2c290c5f3941bd4b25879ef7e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb07a29b54dab7b9777220c3593e73d') in 0.011493 seconds
-  Import took 0.013258 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/DOORWood_InsJ_Door_Wooden_Closing_03-01.wav
-  artifactKey: Guid(a68d77d1ab4d8ad48bfc7ea06d637e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/DOORWood_InsJ_Door_Wooden_Closing_03-01.wav using Guid(a68d77d1ab4d8ad48bfc7ea06d637e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a083669fbd2d6de5fd84318e0ec3c137') in 0.009043 seconds
-  Import took 0.010635 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/CERMImpt_InsJ_Bricks_Impact_Single_01-02.wav
-  artifactKey: Guid(5454c8e9bd09fb54aab5081d6c950770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/CERMImpt_InsJ_Bricks_Impact_Single_01-02.wav using Guid(5454c8e9bd09fb54aab5081d6c950770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8021cebd6b4d8ff48042fb226d76ca98') in 0.010599 seconds
-  Import took 0.012227 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/UIClick_InsJ_UI_Mechanical_Move_01.wav
-  artifactKey: Guid(cd092ad13de41c24c9d3838981942e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/UIClick_InsJ_UI_Mechanical_Move_01.wav using Guid(cd092ad13de41c24c9d3838981942e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bfd1bb3447ba7a322373bc08576266c') in 0.009362 seconds
-  Import took 0.011077 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/FEETHmn_InsJ_Footsteps_Snow_Walking_Trainers_02-01_Single-01.wav
-  artifactKey: Guid(afb86ce3664b09f4dbba2596781b3ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/FEETHmn_InsJ_Footsteps_Snow_Walking_Trainers_02-01_Single-01.wav using Guid(afb86ce3664b09f4dbba2596781b3ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ace1039205af83bc881ee28facfaf6') in 0.010555 seconds
-  Import took 0.012292 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/ANMLInsc_InsJ_Ambience_Cricket-Insect_06-01_LOOP.wav
-  artifactKey: Guid(12f3981d6b7920b41ad91c23e1b49047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/ANMLInsc_InsJ_Ambience_Cricket-Insect_06-01_LOOP.wav using Guid(12f3981d6b7920b41ad91c23e1b49047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8aceaa26682a6548d814609351135ef') in 0.009769 seconds
-  Import took 0.011389 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/ANMLDog_InsJ_Fox_Vocal-Cry_Distant_01-01.wav
-  artifactKey: Guid(a47a6c5c0b57b2d469b31e5db9b151fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/ANMLDog_InsJ_Fox_Vocal-Cry_Distant_01-01.wav using Guid(a47a6c5c0b57b2d469b31e5db9b151fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '092f0fdb47f4eee5286f3f5f92288b8f') in 0.012093 seconds
-  Import took 0.013787 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/MUSCChim_InsJ_Hand-Bell_01-16_High-C.wav
-  artifactKey: Guid(374f9d3b5620719408ea03778e8dc0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/MUSCChim_InsJ_Hand-Bell_01-16_High-C.wav using Guid(374f9d3b5620719408ea03778e8dc0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7802ca6c3228dafbe756cca9b9946b8') in 0.009624 seconds
-  Import took 0.011482 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/GLASCrsh_InsJ_Glass_Shards_Dropping_Close_01-01.wav
-  artifactKey: Guid(36a8b7193377acf44a5c6ba0dbae1779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/GLASCrsh_InsJ_Glass_Shards_Dropping_Close_01-01.wav using Guid(36a8b7193377acf44a5c6ba0dbae1779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26212fe310b76bfe8ecb1991740a1d2c') in 0.009666 seconds
-  Import took 0.011336 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/AEROMisc_InsJ_Hot-Air-Balloon_Fire_01-01.wav
-  artifactKey: Guid(94b01adb9e48b2c429629cb9e912f95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/AEROMisc_InsJ_Hot-Air-Balloon_Fire_01-01.wav using Guid(94b01adb9e48b2c429629cb9e912f95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c245b784585c220cf0e593a4a975d3c') in 0.010001 seconds
-  Import took 0.011822 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/MACHOffi_InsJ_Machine-01_Turning-Off_01.wav
-  artifactKey: Guid(7495c98f26961e441aa45d80fab397be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/MACHOffi_InsJ_Machine-01_Turning-Off_01.wav using Guid(7495c98f26961e441aa45d80fab397be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f246e425ccbb161961802aeea0ea4314') in 0.011229 seconds
-  Import took 0.012866 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/MECHSwtch_InsJ_Switch_Plastic_Organ-Stops_Multi_01.wav
-  artifactKey: Guid(867bd21a8f297d248b1b12c24f1a37d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/MECHSwtch_InsJ_Switch_Plastic_Organ-Stops_Multi_01.wav using Guid(867bd21a8f297d248b1b12c24f1a37d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd1375880003d81e028a05992481ee8') in 0.009513 seconds
-  Import took 0.011223 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/FEETHmn_InsJ_Footsteps_Carpet_Jogging_Trainers_01-01_Single-01.wav
-  artifactKey: Guid(0945b72b3fde78e41b2d01139ecee2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/FEETHmn_InsJ_Footsteps_Carpet_Jogging_Trainers_01-01_Single-01.wav using Guid(0945b72b3fde78e41b2d01139ecee2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4017fe86b20c5178ea12eac6bf9beba8') in 0.010733 seconds
-  Import took 0.012437 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/AMBTech_InsJ_Spaceship_Engine-Ambience_Interior_01-01_WET.wav
-  artifactKey: Guid(ec7fd3eed0d7f6448a8ebe8feb67919a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/AMBTech_InsJ_Spaceship_Engine-Ambience_Interior_01-01_WET.wav using Guid(ec7fd3eed0d7f6448a8ebe8feb67919a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689d6741a5a060d673acbfecfb188ae4') in 0.010624 seconds
-  Import took 0.013019 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/WATRFlow_InsJ_Stream_Water_01_LOOP.wav
-  artifactKey: Guid(89b16bfd82038a546af1843006e3cfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/WATRFlow_InsJ_Stream_Water_01_LOOP.wav using Guid(89b16bfd82038a546af1843006e3cfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a59695ad5e15abba01283d36c90b5f5') in 0.014978 seconds
-  Import took 0.016633 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/BELLMisc_InsJ_Bell_Small_Close_01-01.wav
-  artifactKey: Guid(37ac6c8afb144cc4fa4608c3ab51ecb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/BELLMisc_InsJ_Bell_Small_Close_01-01.wav using Guid(37ac6c8afb144cc4fa4608c3ab51ecb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ea7d0a5e907797f83a9e255ce82a4e6') in 0.009152 seconds
-  Import took 0.010706 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/COMCell_InsJ_Phone_Digital_Ringing_01-01_LOOP.wav
-  artifactKey: Guid(d2717153103eb8d4fa8bb3f9072f8d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/COMCell_InsJ_Phone_Digital_Ringing_01-01_LOOP.wav using Guid(d2717153103eb8d4fa8bb3f9072f8d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663a153316cc9ada7f445980486c9bb6') in 0.009218 seconds
-  Import took 0.010857 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/UIMisc_InsJ_Dialogue-Text-Scrolling_Glitch_01-01_LOOP.wav
-  artifactKey: Guid(7ca74fdc589f42f4385d51ab6b62cc67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/UIMisc_InsJ_Dialogue-Text-Scrolling_Glitch_01-01_LOOP.wav using Guid(7ca74fdc589f42f4385d51ab6b62cc67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f03f30a22ae3726b62bd5e45721e0a12') in 0.009015 seconds
-  Import took 0.010686 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000128 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/THUN_InsJ_Thunder_Close_Rain_01.wav
-  artifactKey: Guid(eb5c08ef9f0415147a27e5035b2d69ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/THUN_InsJ_Thunder_Close_Rain_01.wav using Guid(eb5c08ef9f0415147a27e5035b2d69ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de27973b3de15f650aff84c173ada15d') in 0.011135 seconds
-  Import took 0.012720 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/FEETHmn_InsJ_Footsteps_Ceramic_Jogging_Trainers_01-01_Single-01.wav
-  artifactKey: Guid(2dfb5bdbfa70cb4449cb0336cb7fa8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/FEETHmn_InsJ_Footsteps_Ceramic_Jogging_Trainers_01-01_Single-01.wav using Guid(2dfb5bdbfa70cb4449cb0336cb7fa8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d7777cd6fc4e8e3212f95110cec5b9') in 0.009132 seconds
-  Import took 0.010753 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/ANMLInsc_InsJ_Buzzing_Bee_Single_Very-Short_01-01.wav
-  artifactKey: Guid(8a7be74d657c57944b0e60abe511cc2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/ANMLInsc_InsJ_Buzzing_Bee_Single_Very-Short_01-01.wav using Guid(8a7be74d657c57944b0e60abe511cc2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d64f751476176f444ca3fdb7e27933f') in 0.011000 seconds
-  Import took 0.012608 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/MOTRSrvo_InsJ_RC-Car_Revving_Close_Long_01-01.wav
-  artifactKey: Guid(f7c6d7cf7f89e9148af01dc2d8d1fb3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/MOTRSrvo_InsJ_RC-Car_Revving_Close_Long_01-01.wav using Guid(f7c6d7cf7f89e9148af01dc2d8d1fb3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c74f1eb5fcb52b54d738c67681aa874') in 0.009353 seconds
-  Import took 0.010962 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.168923 seconds.
-  path: Assets/96 General Library (Free Sample)/Samples/WOODFric_InsJ_Creaking_Wood-Floor_Short_01-01.wav
-  artifactKey: Guid(2ad5a140e762d82459807547aa5bc93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/96 General Library (Free Sample)/Samples/WOODFric_InsJ_Creaking_Wood-Floor_Short_01-01.wav using Guid(2ad5a140e762d82459807547aa5bc93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8749e86fe6796c3fb019edb27d6e1f4') in 0.008828 seconds
-  Import took 0.010529 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 234.285843 seconds.
-  path: Assets/Car Engine Sounds - i6 German Free/Assets
-  artifactKey: Guid(c5cd05d36c3a4744a9420fd8ebf78f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Car Engine Sounds - i6 German Free/Assets using Guid(c5cd05d36c3a4744a9420fd8ebf78f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b42861433ea8f06550dbeb66c60047') in 0.004923 seconds
-  Import took 0.006801 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.527362 seconds.
-  path: Assets/Car Engine Sounds - i6 German Free/Assets/Audio
-  artifactKey: Guid(aba65f92c65bded4e8916ebeac6f10cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Car Engine Sounds - i6 German Free/Assets/Audio using Guid(aba65f92c65bded4e8916ebeac6f10cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b63ab95b66af195c40b7e433d6325e7') in 0.004606 seconds
-  Import took 0.006575 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.547378 seconds.
-  path: Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free
-  artifactKey: Guid(1b4ba20316b4c084a98ddc5e7d28720b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free using Guid(1b4ba20316b4c084a98ddc5e7d28720b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3650d247e7acab867318fcb5043bf198') in 0.005381 seconds
-  Import took 0.007076 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.049654 seconds.
-  path: Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/high_off.wav
-  artifactKey: Guid(132c1515ea005404fb6144c976c99ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/high_off.wav using Guid(132c1515ea005404fb6144c976c99ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e28b66f77e9139c867218eb266146d70') in 0.008773 seconds
-  Import took 0.010407 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/idle.wav
-  artifactKey: Guid(c502041826854664683f9914f63427b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/idle.wav using Guid(c502041826854664683f9914f63427b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a015b299b7ac33d7c7863a157897c9d7') in 0.008229 seconds
-  Import took 0.009906 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/startup.wav
-  artifactKey: Guid(4ce5536d09910a148a92ac5408ae3c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/startup.wav using Guid(4ce5536d09910a148a92ac5408ae3c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5574bf69428d21ba77c6250243a38003') in 0.008981 seconds
-  Import took 0.010619 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000120 seconds.
-  path: Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/high_on.wav
-  artifactKey: Guid(e9643d8581d235f45a62997cba851988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/high_on.wav using Guid(e9643d8581d235f45a62997cba851988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b1909840ff332b21e0a208038fab30') in 0.007993 seconds
-  Import took 0.009517 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/low_on.wav
-  artifactKey: Guid(75fa27e467267c74f91f1f6f4e74ff88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/low_on.wav using Guid(75fa27e467267c74f91f1f6f4e74ff88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '363ba6083aaf1f11e882707463555ab2') in 0.009802 seconds
-  Import took 0.011342 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/low_off.wav
-  artifactKey: Guid(bb683044c23cd50438d45fe475089c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/low_off.wav using Guid(bb683044c23cd50438d45fe475089c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e507310de1e0e6a82f8931f8773aec4c') in 0.008350 seconds
-  Import took 0.009902 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/maxRPM.wav
-  artifactKey: Guid(aa60e7347d433244fb6223eac9a95b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/maxRPM.wav using Guid(aa60e7347d433244fb6223eac9a95b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056bc0c0c42cb58fe984638175afd1ca') in 0.008984 seconds
-  Import took 0.010713 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/med_on.wav
-  artifactKey: Guid(22cd46996da3b624bb08935264560d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/med_on.wav using Guid(22cd46996da3b624bb08935264560d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3fe5ee70b1b1fc0dad22c144ba6d0ab') in 0.008016 seconds
-  Import took 0.009524 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/med_off.wav
-  artifactKey: Guid(30ab19edabbfdea499f3db426001e120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Car Engine Sounds - i6 German Free/Assets/Audio/i6_german_free/med_off.wav using Guid(30ab19edabbfdea499f3db426001e120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb797c43c2f22e544dc82b5c1d6417e3') in 0.008222 seconds
-  Import took 0.009844 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 41.320538 seconds.
-  path: Assets/Prefabs/Car2.prefab
-  artifactKey: Guid(e479006ea97f21a41a0e6b83b851bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car2.prefab using Guid(e479006ea97f21a41a0e6b83b851bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd858eed95dbc847dfa70fbd50e197c0d') in 0.014368 seconds
-  Import took 0.016521 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004922 seconds.
-  path: Assets/Prefabs/Car2.prefab
-  artifactKey: Guid(e479006ea97f21a41a0e6b83b851bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car2.prefab using Guid(e479006ea97f21a41a0e6b83b851bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd858eed95dbc847dfa70fbd50e197c0d') in 0.009516 seconds
-  Import took 0.011428 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.706328 seconds.
-  path: Assets/Prefabs/Car2.prefab
-  artifactKey: Guid(e479006ea97f21a41a0e6b83b851bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car2.prefab using Guid(e479006ea97f21a41a0e6b83b851bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f66af7abfd7195f324d6962e5e5151') in 0.007929 seconds
-  Import took 0.009850 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.681686 seconds.
-  path: Assets/Prefabs/Car2.prefab
-  artifactKey: Guid(e479006ea97f21a41a0e6b83b851bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car2.prefab using Guid(e479006ea97f21a41a0e6b83b851bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0733fca59e96d824fc44fccae375eeda') in 0.009841 seconds
-  Import took 0.011772 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.822304 seconds.
-  path: Assets/Prefabs/Car2.prefab
-  artifactKey: Guid(e479006ea97f21a41a0e6b83b851bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car2.prefab using Guid(e479006ea97f21a41a0e6b83b851bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ad9188cdc589d8ff7ac173d4990e50') in 0.010314 seconds
-  Import took 0.012671 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000619 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.860 seconds
+- Completed reload, in  0.684 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 132.6 MB.
-System memory in use after: 132.7 MB.
+System memory in use after: 132.6 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1591.
-Total: 1.485700 ms (FindLiveObjects: 0.248500 ms CreateObjectMapping: 0.028600 ms MarkObjects: 1.143300 ms  DeleteObjects: 0.063100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.847925 seconds.
-  path: Assets/Prefabs/Car2.prefab
-  artifactKey: Guid(e479006ea97f21a41a0e6b83b851bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car2.prefab using Guid(e479006ea97f21a41a0e6b83b851bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '931d2ccec5c9a5d83377605138ae0b8f') in 0.057775 seconds
-  Import took 0.059787 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.023553 seconds.
-  path: Assets/Prefabs/Car2.prefab
-  artifactKey: Guid(e479006ea97f21a41a0e6b83b851bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car2.prefab using Guid(e479006ea97f21a41a0e6b83b851bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '931d2ccec5c9a5d83377605138ae0b8f') in 0.007706 seconds
-  Import took 0.009605 seconds .
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1633.
+Total: 1.684700 ms (FindLiveObjects: 0.175900 ms CreateObjectMapping: 0.031300 ms MarkObjects: 1.422500 ms  DeleteObjects: 0.054200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000594 seconds.
+Registered in 0.000756 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.856 seconds
+- Completed reload, in  0.676 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -1142,195 +967,112 @@ Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 132.6 MB.
 System memory in use after: 132.7 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1595.
-Total: 1.997000 ms (FindLiveObjects: 0.190500 ms CreateObjectMapping: 0.070900 ms MarkObjects: 1.643000 ms  DeleteObjects: 0.090700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.422489 seconds.
-  path: Assets/Prefabs/Car2.prefab
-  artifactKey: Guid(e479006ea97f21a41a0e6b83b851bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Car2.prefab using Guid(e479006ea97f21a41a0e6b83b851bd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70710073a43dac8a58b374c7de70d33e') in 0.065687 seconds
-  Import took 0.067700 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 247.507444 seconds.
-  path: Assets/Sounds/Child's Nightmare.ogg
-  artifactKey: Guid(bf239094cac81a944ba9af767e8210a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Child's Nightmare.ogg using Guid(bf239094cac81a944ba9af767e8210a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4307802c81ff3320e4b5e5ae8807e723') in 0.015138 seconds
-  Import took 0.016854 seconds .
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1636.
+Total: 1.756000 ms (FindLiveObjects: 0.236400 ms CreateObjectMapping: 0.059400 ms MarkObjects: 1.361700 ms  DeleteObjects: 0.096100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000548 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.663 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.7 MB.
-System memory in use after: 132.7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1599.
-Total: 1.389900 ms (FindLiveObjects: 0.100600 ms CreateObjectMapping: 0.027200 ms MarkObjects: 1.166700 ms  DeleteObjects: 0.094700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 932.924822 seconds.
-  path: Assets/Particle Effects/Materials
-  artifactKey: Guid(466a961815d3d6b4ea8b7adde280ba31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Particle Effects/Materials using Guid(466a961815d3d6b4ea8b7adde280ba31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2129149b304750f77503282bc3d953e') in 0.007838 seconds
-  Import took 0.009912 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 38.670276 seconds.
-  path: Assets/Scripts/Player_Move.cs
-  artifactKey: Guid(eeaef335dfdfef947b6a159a4c71bf17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player_Move.cs using Guid(eeaef335dfdfef947b6a159a4c71bf17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9fb35b3ccde5146062c72404c592a89') in 0.343080 seconds
-  Import took 0.344774 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.225292 seconds.
-  path: Assets/Scripts/Bullet.cs
-  artifactKey: Guid(3d7a22463754e8043bc3d85cd410d81a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Bullet.cs using Guid(3d7a22463754e8043bc3d85cd410d81a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c306850914ffaa175769bcc4081ae3c6') in 0.005169 seconds
-  Import took 0.006831 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000632 seconds.
-  path: Assets/Scripts/Bullet.cs
-  artifactKey: Guid(3d7a22463754e8043bc3d85cd410d81a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Bullet.cs using Guid(3d7a22463754e8043bc3d85cd410d81a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c306850914ffaa175769bcc4081ae3c6') in 0.001532 seconds
-  Import took 0.003145 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.226881 seconds.
-  path: Assets/Scripts/DetectCollisions.cs
-  artifactKey: Guid(65d0a0e7bc9dbe14197fdc04f1110a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DetectCollisions.cs using Guid(65d0a0e7bc9dbe14197fdc04f1110a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553b58d295fca3b1028fcefea726f8cd') in 0.005285 seconds
-  Import took 0.006930 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Scripts/DetectCollisions.cs
-  artifactKey: Guid(65d0a0e7bc9dbe14197fdc04f1110a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DetectCollisions.cs using Guid(65d0a0e7bc9dbe14197fdc04f1110a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553b58d295fca3b1028fcefea726f8cd') in 0.001892 seconds
-  Import took 0.003595 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000594 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.701 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.7 MB.
-System memory in use after: 132.7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1602.
-Total: 1.378400 ms (FindLiveObjects: 0.125200 ms CreateObjectMapping: 0.035700 ms MarkObjects: 1.155800 ms  DeleteObjects: 0.060600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 41.197291 seconds.
-  path: Assets/Scripts/DetectCollisions.cs
-  artifactKey: Guid(65d0a0e7bc9dbe14197fdc04f1110a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DetectCollisions.cs using Guid(65d0a0e7bc9dbe14197fdc04f1110a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75190e40a9a3f614f5300afe1164bb9e') in 0.003166 seconds
-  Import took 0.004770 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000585 seconds.
+Registered in 0.000580 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.701 seconds
+- Completed reload, in  0.691 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.7 MB.
-System memory in use after: 132.8 MB.
+System memory in use before: 132.6 MB.
+System memory in use after: 132.7 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1605.
-Total: 1.356500 ms (FindLiveObjects: 0.131800 ms CreateObjectMapping: 0.033900 ms MarkObjects: 1.131600 ms  DeleteObjects: 0.058000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 65.176873 seconds.
-  path: Assets/Scripts/DetectCollisions.cs
-  artifactKey: Guid(65d0a0e7bc9dbe14197fdc04f1110a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DetectCollisions.cs using Guid(65d0a0e7bc9dbe14197fdc04f1110a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b9ad4067fc9fbba7ac91d065e408f1') in 0.004024 seconds
-  Import took 0.005711 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.998183 seconds.
-  path: Assets/Particle Effects/Particles/Normal/BirthdayConfetti.prefab
-  artifactKey: Guid(a56fa166c27c1b64a90204cdc43a72fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Particle Effects/Particles/Normal/BirthdayConfetti.prefab using Guid(a56fa166c27c1b64a90204cdc43a72fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc4a9bb5bc72d4aa165d39ae5822c15') in 0.042855 seconds
-  Import took 0.044767 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.934799 seconds.
-  path: Assets/Particle Effects/Particles/Normal/EtherealHit.prefab
-  artifactKey: Guid(6b37cd66c053f5c438d7a6854a9ee401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Particle Effects/Particles/Normal/EtherealHit.prefab using Guid(6b37cd66c053f5c438d7a6854a9ee401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c593a2bd8ee754637a4397e9db46e3c') in 0.093605 seconds
-  Import took 0.095602 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.577993 seconds.
-  path: Assets/Particle Effects/Particles/Normal/BirthdaySpark.prefab
-  artifactKey: Guid(028315ff90f3b77478f6282592e23c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Particle Effects/Particles/Normal/BirthdaySpark.prefab using Guid(028315ff90f3b77478f6282592e23c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '889ccc9a3d6ebeaa7e161a008e9df261') in 0.092481 seconds
-  Import took 0.094420 seconds .
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1639.
+Total: 1.340900 ms (FindLiveObjects: 0.118700 ms CreateObjectMapping: 0.032800 ms MarkObjects: 1.136400 ms  DeleteObjects: 0.052300 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000649 seconds.
+Registered in 0.000524 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.687 seconds
+- Completed reload, in  0.711 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.6 MB.
+System memory in use after: 132.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1642.
+Total: 1.660200 ms (FindLiveObjects: 0.135600 ms CreateObjectMapping: 0.035900 ms MarkObjects: 1.431700 ms  DeleteObjects: 0.056200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000516 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.700 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.6 MB.
+System memory in use after: 132.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1645.
+Total: 1.589300 ms (FindLiveObjects: 0.117800 ms CreateObjectMapping: 0.030400 ms MarkObjects: 1.385200 ms  DeleteObjects: 0.055000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000560 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.678 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.6 MB.
+System memory in use after: 132.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1648.
+Total: 2.226600 ms (FindLiveObjects: 0.149900 ms CreateObjectMapping: 0.030700 ms MarkObjects: 1.933100 ms  DeleteObjects: 0.111700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000547 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.659 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1116 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 132.7 MB.
-System memory in use after: 132.8 MB.
+System memory in use after: 132.7 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1608.
-Total: 1.503100 ms (FindLiveObjects: 0.266700 ms CreateObjectMapping: 0.034100 ms MarkObjects: 1.150000 ms  DeleteObjects: 0.050300 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1651.
+Total: 1.474000 ms (FindLiveObjects: 0.193100 ms CreateObjectMapping: 0.037400 ms MarkObjects: 1.192400 ms  DeleteObjects: 0.050300 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
